@@ -6,3 +6,41 @@
         text-decoration: none;
 
     }
+    .navbar{
+        background: rgb(135, 146, 32);
+        position: fixed;
+        width: 100%;
+        font-family: Ubuntu, sans-serif; color: rgb(255, 196, 0);
+        padding: 15px 0;
+    }
+
+    .navbar .max-width{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .max-width{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 80px;
+    }
+    .navbar .logo a{
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .navbar .menu li{
+        display: inline-block;
+        list-style: none;
+    }
+    .navbar .menu li a{
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-left: 25px;
+        padding: 20px;
+    }
+    
+
+    .lago span{}
